@@ -1,5 +1,6 @@
 import { app } from "./app"
 import { env } from "./env"
+import { prompt } from "./middleware/gemini/gemini"
 
 const port  = env.PORT
 
